@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Wanda Maximoff",
+    "occupation": "Scarlett Witch",
+    "sign": "Aquarius *duh*",
+    "food": "Jello Salad"
   },
   {
     "id": 2,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Thor",
+    "occupation": "Defender of Asgard",
+    "sign": "940 A.D. ???",
+    "food": "Dried Earth Meat"
   },
   {
     "id": 3,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Steve Rogers",
+    "occupation": "Captain of America",
+    "sign": "Cancer *soft boy*",
+    "food": "Saltines"
   },
   {
     "id": 4,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Tony Stark",
+    "occupation": "Billionaire Part-time Comedian",
+    "sign": "Probably Gemini",
+    "food": "Martini Shaken...not stirred"
   },
   {
     "id": 5,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Natasha Romanova",
+    "occupation": "Freelance Operative",
+    "sign": "Scorpio ...halp",
+    "food": "Potatoes and/or Vodka"
   },
   {
     "id": 6,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Victor Shade",
+    "occupation": "Computer Scientist",
+    "sign": "No",
+    "food": "Air"
   },
   {
     "id": 7,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Peter Parker",
+    "occupation": "Student",
+    "sign": "Virgo",
+    "food": "Aunt Mae's Casserole"
   },
   {
     "id": 8,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Doreen Green",
+    "occupation": "Animal Caretaker",
+    "sign": "Probs Pisces",
+    "food": "Tree Nuts"
   },
   {
     "id": 9,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Bruce Banner",
+    "occupation": "SMASH but sometimes smart",
+    "sign": "Taurus",
+    "food": "Trader Joe's Green Juice"
   },
   {
     "id": 10,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "T'Challa",
+    "occupation": "King",
+    "sign": "Aquarius",
+    "food": "Vibranium Soup"
   },
   {
     "id": 11,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Carol Danvers",
+    "occupation": "Kree Warrior",
+    "sign": "Aries of course",
+    "food": "Apple Pie"
   },
   {
    "id": 12,
-    "name": "SpongeBob",
-    "occupation": "Fry Cook",
-    "sign": "Aries",
-    "food": "Potatos"
+    "name": "Wade Wilson",
+    "occupation": "Hugs not Drugs",
+    "sign": "Aries, absolutely",
+    "food": "Ring Pop"
   }
 ]
