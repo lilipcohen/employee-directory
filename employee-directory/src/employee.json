@@ -73,14 +73,14 @@
     "id": 11,
     "name": "Carol Danvers",
     "occupation": "Kree Warrior",
-    "sign": "Aries of course",
+    "sign": "Aries",
     "food": "Apple Pie"
   },
   {
    "id": 12,
     "name": "Wade Wilson",
     "occupation": "Hugs not Drugs",
-    "sign": "Aries, absolutely",
+    "sign": "Aries",
     "food": "Ring Pop"
   }
 ]

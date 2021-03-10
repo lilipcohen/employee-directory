@@ -3,6 +3,7 @@ import Table from "./components/Table";
 import Header from "./components/Header";
 import Rows from "./components/Rows";
 import SearchForm from "./components/SearchForm";
+import Button from "./components/Button";
 import employee from "./employee.json";
 
   
@@ -22,18 +23,12 @@ class App extends Component {
       // .catch(err => console.log(err));
   };
 
-  handleInputChange = event => {
-    const value = event.target.value;
-    const name = event.target.name;
-    this.setState({
-      [name]: value
-    });
-  };
 
-  handleFormSubmit = event => {
-    event.preventDefault();
-    this.setState(this.state.search);
-  };
+  aries = () => {
+    const aries = this.state.employee.filter(employee => employee.sign === 'Aries');
+    // Set this.state.friends equal to the new friends array
+    this.setState({ employee: aries });
+  }
   
   render() {
     return (
@@ -56,6 +51,9 @@ class App extends Component {
         value={this.state.search}
         handleInputChange={this.handleInputChange}
         handleFormSubmit={this.handleFormSubmit}
+        />
+        <Button
+          aries={this.aries}
         />
       </div>
     );
