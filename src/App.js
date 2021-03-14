@@ -4,29 +4,37 @@ import Header from "./components/Header";
 import Rows from "./components/Rows";
 import SearchForm from "./components/SearchForm";
 import Button from "./components/Button";
-import employee from "./employee.json";
+import MainList from "./employee.json";
 
   
 class App extends Component {
   
   state = {
-    employee,
+    employee: MainList,
     search: ""
   };
 
-  searchPerson = (employee) => {
-    const results = employee.filter(employee =>
-      employee.toLowerCase().includes(employee.name.toLowerCase())
+  searchPerson = (search) => {
+    const results = MainList.filter(employee =>
+      employee.name.toLowerCase().includes(search.toLowerCase())
     );
-    this.setState(results);// API.search(query)
-      // .then(res => this.setState({ result: res.data }))
-      // .catch(err => console.log(err));
+    this.setState({ employee: results });
   };
 
+  handleInputChange = event => {
+    const value = event.target.value;
+    this.setState({
+      search: value
+    });
+  };
+
+  handleFormSubmit = event => {
+    event.preventDefault();
+    this.searchPerson(this.state.search)
+  };
 
   aries = () => {
-    const aries = this.state.employee.filter(employee => employee.sign === 'Aries');
-    // Set this.state.friends equal to the new friends array
+    const aries = MainList.filter(employee => employee.sign === 'Aries');
     this.setState({ employee: aries });
   }
   
